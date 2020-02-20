@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Binary to decimal converter</h1>
+    <form>
+        <h3>Please enter binary number (0 and 1) to convert it to decimal one</h3>
+        <input id="input" type = "number" maxlength = "8" oninput="this.value=this.value.slice(0,this.maxLength)">
+        <button id="btn">Convert</button>
+        <input id="output" disabled>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
