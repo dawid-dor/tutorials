@@ -1,0 +1,93 @@
+html, body{
+    background-color: rgb(65, 60, 60);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1, h3{
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+h1{
+    margin: 1em 0 0.1em 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.61);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 1em 0;
+    margin-right: 2em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.users:hover{
+    color: rgba(255, 255, 255, 0.795);
+    cursor: pointer;
+}
+
+li{
+    margin: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.container{
+    margin: 0;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+button{
+    margin: 0;
+    background-color: rgba(34, 31, 31, 0.712);
+    border: 1px black solid;
+    padding: 10px 15px;
+    color: white
+}
+
+button:hover{
+    background-color: rgba(34, 31, 31, 0.918);
+    cursor: pointer;
+}
+
+.info{
+    border: 3px white solid;
+    margin-top: 1em;
+    padding: 2em;
+    text-align: center;
+    display: none;
+    background: rgba(29, 28, 28, 0.295);
+}
+
+a:focus{
+    color:inherit;
+}
+
+a{
+    color:inherit;
+
+}
+
+a:hover{
+    color:#ccc;
+}
