@@ -1,0 +1,58 @@
+
+html, body{
+    background-color: rgb(31, 25, 25);
+}
+
+h1{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.color{
+    border: 3px white solid;
+    width: 350px;
+    height: 250px;
+    margin: 5px;
+}
+
+.color:hover{
+    cursor: pointer;
+}
+
+#result{
+    border: 3px white solid;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 5vh;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#clear{
+    padding: 5px 30px;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 5vh;
+}
+
+#clear:hover{
+    cursor: pointer;
+}
